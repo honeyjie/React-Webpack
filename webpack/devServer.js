@@ -1,9 +1,8 @@
 const express = require('express')
 const webpack = require('webpack')
 const webpackHotMiddleware = require('webpack-hot-middleware')
-
+var serverStatic = require('serve-static')
 const app = express()
-
 const port = process.env.PORT || 3000
 const isProduction = process.env.NODE_ENV === 'production'
 

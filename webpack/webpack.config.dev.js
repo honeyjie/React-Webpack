@@ -7,7 +7,8 @@ module.exports = Merge(CommonConfig, {
     port: 3000,
     host: 'localhost',
     historyApiFallback: true,
-    noInfo: false,
-    stats: 'minimal'
+    noInfo: true,
+    stats: 'minimal',
+    hot: true
   }
 })
